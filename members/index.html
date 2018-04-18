@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content = "width=device-width , initial-scale=1, shrink-to-fit=no">
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="../css/1.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese" rel="stylesheet">
+</head>
+
+<body>
+	<!-- start Header -->
+	<nav class = "navbar navbar-dark bg-dark navbar-expand-lg">
+		<div class="container-fluid">
+			<div class="row">
+
+				<a href="#" class = "navbar-brand"> ADMIN </a>
+
+				<!-- start nabar-nav -->
+				<ul class="navbar-nav menu-top">
+					<!-- start Dropdown notifications -->
+					<li class="navbar-item dropdown noti">
+						<a href="" class="nav-link dropdown-toggle" data-toggle = "dropdown" id = "dropdownNotification">
+							<i class="fas fa-bell"></i>
+							<span class="badge red">7</span>
+						</a>
+						<ul class="dropdown-menu notifications" aria-labelledby = "dropdownNotification" id="#dit">
+							<li class="dropdown-menu-title">
+								<span>You have 11 notifications</span>
+								<a href="#refresh"><i class="fas fa-redo"></i></a>
+							</li>
+							<li class = "dropdown-item dropdown-tb">
+								<a href="">
+									<span class="fas fa-comment icon green"></span>
+									<span class="message">New comment</span>
+									<span class="time">7 mins</span>
+								</a>
+							</li>
+							<li class = "dropdown-item dropdown-tb">
+								<a href="">
+									<span class="fas fa-user icon blue"></span>
+									<span class="message">New user register</span>
+									<span class="time">7 mins</span>
+								</a>
+							</li>
+							<li class = "dropdown-item dropdown-tb">
+								<a href="">
+									<span class="fas fa-shopping-cart icon yellow"></span>
+									<span class="message">2 course sold</span>
+									<span class="time">7 mins</span>
+								</a>
+							</li>
+							<li class="warning dropdown-item">
+								<a href="">
+									<span class="fas fa-user icon red"></span>
+									<span class="message">2 account deleted</span>
+									<span class="time">7 mins</span>
+								</a>
+							</li>
+							<li class="dropdown-menu-sub-footer">
+								<a href = "#" >View all notifications</a>
+							</li>
+						</ul>
+					</li>
+					<!-- end Dropdown notifications -->
+
+					<!-- start Dropdown message -->
+					<li class="navbar-item dropdown messages">
+						<a href="" class="dropdown-toggle nav-link" data-toggle="dropdown" id="dropdownMessage">
+							<i class="fas fa-envelope"></i>
+							<span class="badge red">7</span>
+						</a>
+						<ul class="dropdown-menu" aria-labelledby = "dropdownMessage">
+							<li class="dropdown-menu-title">
+								<span>You have 7 messages</span>
+								<a href="#refresh"><i class="fas fa-redo"></i></a>
+							</li>
+							<li class="dropdown-item dropdown-tb">
+								<a href="">
+									<span class="avt">
+										<img src="../img/avt.jpg" alt="">
+									</span>
+									<span class="header">
+										<span class="name">JonhSon</span>									
+										<span class="time">6 mins</span>										
+									</span>
+									<span class="mess">Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit.</span>
+								</a>
+							</li>
+				
+							<li class="dropdown-item dropdown-tb">
+								<a href="">
+									<span class="avt">
+										<img src="../img/avt.jpg" alt="">
+									</span>
+									<span class="header">
+										<span class="name">JonhSon</span>									
+										<span class="time">6 mins</span>										
+									</span>
+									<span class="mess">Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit.</span>
+								</a>
+							</li>
+
+							<li class="dropdown-item dropdown-tb">
+								<a href="">
+									<span class="avt">
+										<img src="../img/avt.jpg" alt="">
+									</span>
+									<span class="header">
+										<span class="name">JonhSon</span>									
+										<span class="time">6 mins</span>										
+									</span>
+									<span class="mess">Lorem ipsum dolor sit amet, 
+									consectetur adipisicing elit.</span>
+								</a>
+							</li>
+							<li class="dropdown-menu-sub-footer">
+								<a href = "#" >View all messages</a>
+							</li>
+						</ul>
+					</li>
+					<!-- end Dropdown message -->
+
+					<!-- start User Dropdown -->
+					<li class="navbar-item dropdown user-admin">
+						<a href="#" class="dropdown-toggle nav-link" data-toggle = "dropdown" id="dropdownUserAdmin">
+							<i class="fas fa-user-secret"></i>
+							<span class="user-name">Thuan</span>
+						</a>
+
+						<ul class="dropdown-menu" aria-labelledby="dropdownUserAdmin">
+							<li class="dropdown-menu-title">
+								<span>Account Setting</span>
+							</li>
+							<li class="dropdown-item dropdown-tb">
+								<a href="#" class=""><i class="fas fa-user"></i>Profile</a>
+							</li>
+							<li class="dropdown-item dropdown-tb">
+								<a href="login.html"><i class="fa fa-power-off"></i>Logout</a>
+							</li>
+						</ul>
+					</li>
+					<!-- end User Dropdown -->
+				</ul>
+				<!-- end nabar-nav -->
+			</div>
+
+		</div>
+	</nav>
+
+
+	<!-- start main-menu -->
+	<div class="container-fluid">
+		<div class="row">
+			 <!-- start left side -->
+			<div class="main-left-menu">
+				<nav class = "navbar navbar-dark navbar-expand-lg menu-navbar">
+					<button class = "navbar-toggler" data-toggle= "collapse" data-target = "#navbarCollapse">
+						<span class = "navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<ul class="  navbar-nav">
+							<li class="navbar-item">
+								<a href="" class="nav-link"><i class="fas fa-tachometer-alt"></i>DashBoard</a>
+							</li>
+							<li class="navbar-item">
+								<a href="" class="nav-link"><i class="fas fa-file-alt"></i>Exam</a>
+							</li>
+							<li class="navbar-item">
+								<a href="" class="nav-link"><i class="fas fa-users"></i>Member</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+				<!-- end left side -->
+
+				<!-- start main content -->
+			<div class="main-content">
+				<div class="card border-success" id="members">
+					<div class="card-header">
+						<div class="row">
+							<div class="col-sm-6">
+								<h3 class="card-title">Danh sách thành viên</h3>
+							</div>
+							<div class="col-sm-6 text-right">
+								<div class="btn btn-primary">Thêm mới</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<table class="table table-striped table-bordered table-list table-dark table-hover">
+							<thead>
+								<tr class = "text-center">
+									<th><i class="fas fa-cog"></i></th>
+									<th>Mã Số</th>
+									<th>Họ Tên</th>
+									<th>Email</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="text-center">
+									<td>
+										<a href="" class="btn btn-primary"><i class="fas fa-pencil-alt"></i></a>
+										<a href="" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+									</td>
+									<th>1</th>
+									<td>Thế Anh</td> 
+       								<td>abcdxyzt@gmail.com</td> 
+								</tr>
+
+								<tr class="text-center">
+									<td>
+										<a href="" class="btn btn-primary"><i class="fas fa-pencil-alt"></i></a>
+										<a href="" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+									</td>
+									<th>2</th>
+									<td>Hoang Tri</td> 
+       								<td>abcdxyzt@gmail.com</td> 
+								</tr>
+
+								<tr class="text-center">
+									<td>
+										<a href="" class="btn btn-primary"><i class="fas fa-pencil-alt"></i></a>
+										<a href="" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+									</td>
+									<th>3</th>
+									<td>Nguyễn Công Thành</td> 
+       								<td>abcdxyzt@gmail.com</td> 
+								</tr>
+
+								<tr class="text-center">
+									<td>
+										<a href="" class="btn btn-primary"><i class="fas fa-pencil-alt"></i></a>
+										<a href="" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+									</td>
+									<th>4</th>
+									<td>Nguyễn Bá Trung</td> 
+       								<td>abcdxyzt@gmail.com</td> 
+								</tr>
+
+								<tr class="text-center">
+									<td>
+										<a href="" class="btn btn-primary"><i class="fas fa-pencil-alt"></i></a>
+										<a href="" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+									</td>
+									<th>5</th>
+									<td>Hope Hi Vọng</td> 
+       								<td>abcdxyzt@gmail.com</td> 
+								</tr>
+
+							</tbody>
+						</table>
+
+						<div class="card-footer">
+							<div class="row">
+								<div class="col-sm-4">1 of 5</div>
+								<div class="col-sm-8 text-right">
+									<ul class="pagination">
+										<li class="page-item">
+											<a  class = "page-link" href="http://xvideos.com" aria-label="Previous">
+												<span aria-hidden="true">&laquo;</span>
+												<span class="sr-only">Previous</span>
+											</a>
+										</li>
+										<li class="page-item">
+											<a href="http://xvideos.com" class = "page-link">1</a>
+										</li>
+										<li class="page-item">
+											<a href="http://xvideos.com" class = "page-link">2</a>
+										</li>
+										<li class="page-item">
+											<a href="http://xvideos.com" class = "page-link">3</a>
+										</li>
+										<li class="page-item">
+											<a class = "page-link" href="http://xvideos.com" aria-label="Next">
+												<span aria-hidden="true">&raquo;</span>
+												<span class="sr-only">Next</span>
+											</a>
+										</li>
+									</ul>
+									<!-- <ul class="pagination .d-block .d-sm-none"> 
+								        <li><a href="" class="page-link">«</a>
+								        </li> 
+								        <li><a href="" class="page-link">»</a>
+								        </li> 
+							       	</ul>  -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- end main content -->
+
+		</div>
+	</div>
+	<!-- end main menu -->
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
